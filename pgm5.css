@@ -1,0 +1,272 @@
+.btn-primary {
+    color: white;
+    background-color: #F5A503;
+    border-color: #F5A503;
+    /* width: 30%; */
+}
+
+/* Button colours - Hover */
+.btn-primary:hover {
+    color: white;
+    background-color: #F2385A;
+    border-color: #F2385A; /*set the color you want here */
+}
+
+/* Responsive text */
+html {
+  font-size: 14px;
+}
+
+ /* @include media-breakpoint-up(sm) { 
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+} */ 
+/* End of responsive text */
+
+@media  only screen and (max-width:50%){
+  #welcome-section{
+    margin: 0px 120px 0px 0px;
+    padding: auto;
+
+  }
+}
+/* Navbar & Footer text colour - normal */
+#colourmein {
+  color: #F5A503;
+}
+
+/* Navbar & Footer text colour - hover */
+#colourmein:hover {
+  color: #F2385A;
+}
+#welcome-section hr {
+    background-color: white;
+    height: 0.1rem
+  }
+  
+  /* welcome-section text colour */
+  #welcome-section {
+    color: #E9F1DF;
+  }
+  
+  /* welcome-section image formatting */
+  .rounded-circle {
+    height: 50%;
+    width: 100%;
+    border: 0.3rem solid #E9F1DF;  
+  }
+  .img-fluid rounded-circle{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .jumbotron {
+    padding-bottom: 3rem;
+    margin-bottom: 0.4rem;
+    background-color: #F2385A;
+  }
+  
+  /* welcome-section heading font size */
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  /* welcome-section container width */
+  .jumbotron .container {
+    max-width: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* welcome-section container height */
+  #welcome-section {
+    height: 100vh;
+    width: 200vh;
+  }
+  
+  /* welcome-section margin top*/
+  
+  #welcome-sectionimg {
+    margin-top: 50px;
+  }
+  #About hr {
+    background-color: #36B1BF;
+    height: 0.6rem
+  }
+  #display-3 hr{
+      width: auto;
+  }
+  
+  /* welcome-section text formatting */
+  #About h1 {
+    color: #36B1BF;
+  }
+  
+  /* Padding */
+  #About {
+    padding-top: 2rem;
+  }
+  
+  
+  /*---------- Projects ----------*/
+  
+  /* Horizontal rule formatting */
+  #projects hr {
+    background-color: #36B1BF;
+    height: 0.1rem
+  }
+  
+  /* welcome-section text formatting */
+  #projects h1 {
+    color: #36B1BF;
+  }
+  
+  /* Padding */
+  #projects {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  /* Center align the text */
+  #projects {
+    text-align: center !important;
+  }
+  
+  /* Enlarge button*/
+  .btn {
+    display: block;
+    padding: 4%;
+    margin: 5%;
+  }
+  
+  .card {
+    /* display:inline-grid; */
+    margin:  50px;
+    height: 300px;
+    width: 30% ;
+    padding: 50px;
+    display: grid;
+    /* grid-template-rows: auto ; */
+    /* float: left; */
+    border: 2px solid red;
+
+  }
+  .row{
+    display: flex;
+    float: left;
+    font-size: large;
+  }
+ .container-media{ 
+      float: left;
+      width: 13.3%;
+      margin: 10%;
+      padding: 0px;
+  } 
+  .container1::after{
+   content: "";
+   clear: both;
+   display: table;
+  }
+
+  #about-container{
+      padding: 4%;
+      margin: 0%;
+      background-color: #cccccc;
+      /* display: inline; */
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: large;
+}
+#button{
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+    padding: 15px 30px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 1px;
+
+}
+/* #button{
+  margin: 8em;
+  padding: auto;
+  text-align: center;
+} */
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  /* Margin bottom by footer height */
+  body {
+    margin-bottom: 60px;
+  }
+  
+  #card-body{
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    background-position: 1rem;
+    background-color: rgb(14, 151, 151);
+
+  }
+  #boder{
+       padding: auto;
+       margin: 1em;
+       width: 30em;
+      border-style: solid;
+  }
+  .card-img-top{
+    
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+  #navbarCollapse{
+    border: 0.4em solid #0e0d0d;
+    background-color: aqua;
+    
+  }
+  .navbar-brand{
+  
+    text-align: center;
+    font-size: xx-large;
+
+  }
+  .card-body::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+*{
+  box-sizing: border-box;
+}
+/* .project{   
+  border: 3px solid #1bce32;
+  padding: 20px;
+}*/
+@media only screen and (max--width:640px){
+  #myheader{
+    width: 100% !important
+  }
+}
+
+
